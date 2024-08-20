@@ -1,0 +1,29 @@
+body{
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+button{
+    color: blue;
+   padding:  10px;
+   border: 10px;
+   text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+
+form{
+    padding: 10px ;
+}
+div{
+    padding: 10px;
+}
+label{
+    padding: 5px;
+}
+
+select{
+    padding: 5px;
+}
