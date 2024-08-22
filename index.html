@@ -1,97 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <form action="">
-        <img src="cadastro.png" alt="">
-        
-    <div>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu nome" required>
-    </div>
-    <br>
-    <div>
-        <label for="idade">idade</label>
-        <input type="age" id="idade" placeholder="Digite sua idade" required>
-    </div>
-    <br>
-    <div>
-        <label for="data">Data de nascimento:</label>
-        <input type="date" id="data">
-    </div>
-    <br>
-    <div>
-        <label for="e-mail">E-mail</label>
-        <input type="email" id="e-mail" placeholder="Digite seu email" required>
-    </div>
-    <br>
-    <div>
-        <label for="senha">Senha</label>
-        <input type="password" id="Senha" placeholder="Digite sua senha" required>
-    </div>
-    <hr>
-    
-</form>
-<div>
-               <h1>Coloque seu esporte preferido</h1>
-  <div>
-    <input type="radio" nome="genero" required>
-    <label for="Futebol">Futebol</label>
-    </div>
-    <div>
-    <input type="radio" nome="genero">
-    <label for="vôlei">Vôlei</label>
-    </div>
-    <div>
-    <input type="radio" nome="genero">
-    <label for="Basquete">Basquete</label>
-   </div>
-   <div>
-    <input type="radio" nome="genero">
-    <label for="Corrida">Corrida</label>
-</div>
-</div radio>
-<hr>
-            <h1>Coloque seu genero musical</h1>
-<div>
-<input type="checkbox" nome="generos-musicais" required>
-<label for="pop">pop</label>
-</div>
-<div>
-    <input type="checkbox" nome="generos-musicais">
-<label for="Rock">Rock</label>
-</div>
-<div>
-    <input type="checkbox" nome="generos-musicais">
-<label for="Hip-Hop">Hip-Hop</label>
-</div>
-<div>
-    <input type="checkbox" nome="generos-musicais">
-<label for="Funk">Funk</label>
-</div>
-<div>
-    <input type="checkbox" nome="generos-musicais">
-<label for="Jazz">Jazz</label>
-</div>
-<hr>
-<div>
-    <label for="tamanhos">Escolha uma marca</label>
-    <select name="" id="tamanhos">
-    <option value="disabled select">Selecione</option>
-    <option value="nike">Nike</option>
-    <option value="adidas">Adidas</option>
-    <option value="umbro">Umbro</option>
-    <option value="fila">Fila</option>
-    </select>
-</div>
-<form>
 
-   <button> Enviar</button>
-   
+<body>
+    <main>
+        <img src="cadastro.png" alt="">
+        <form action="">
+            <div class="principal">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <br>
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="age" id="idade" placeholder="Digite sua idade" required>
+                </div>
+                <br>
+                <div>
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" id="data">
+                </div>
+                <br>
+                <div>
+                    <label for="e-mail">E-mail:</label>
+                    <input type="email" id="e-mail" placeholder="Digite seu email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="Senha" placeholder="Digite sua senha" required>
+                </div>
+            </div>
+            <div>
+                <h1>Coloque seu esporte preferido</h1>
+                <div>
+                    <input id="Futebol" type="radio" nome="genero" required>
+                    <label for="Futebol">Futebol</label>
+                </div>
+                <div>
+                    <input id="vôlei" type="radio" nome="genero">
+                    <label for="vôlei">Vôlei</label>
+                </div>
+                <div>
+                    <input id="Basquete" type="radio" nome="genero">
+                    <label for="Basquete">Basquete</label>
+                </div>
+                <div>
+                    <input id="Corrida" type="radio" nome="genero">
+                    <label for="Corrida">Corrida</label>
+                </div>
+            </div>
+
+            <h1>Coloque seu genero musical</h1>
+            <div>
+                <input id="pop" type="checkbox" nome="generos-musicais" required>
+                <label for="pop">pop</label>
+            </div>
+            <div>
+                <input id="Rock" type="checkbox" nome="generos-musicais">
+                <label for="Rock">Rock</label>
+            </div>
+            <div>
+                <input id="Hip-Hop" type="checkbox" nome="generos-musicais">
+                <label for="Hip-Hop">Hip-Hop</label>
+            </div>
+            <div>
+                <input id="Funk" type="checkbox" nome="generos-musicais">
+                <label for="Funk">Funk</label>
+            </div>
+            <div>
+                <input id="Jazz" type="checkbox" nome="generos-musicais">
+                <label for="Jazz">Jazz</label>
+            </div>
+
+            <div>
+                <label class="marca" for="tamanhos">Escolha uma marca</label>
+                <select name="" id="tamanhos">
+                    <option value="disabled select">Selecione</option>
+                    <option value="nike">Nike</option>
+                    <option value="adidas">Adidas</option>
+                    <option value="umbro">Umbro</option>
+                    <option value="fila">Fila</option>
+                </select>
+            </div>
+        </form>
+        <button> Enviar</button>
+    </main>
 </body>
+
 </html>

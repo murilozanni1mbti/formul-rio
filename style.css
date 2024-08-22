@@ -1,29 +1,42 @@
 
 
 body{
-    background-color: #b0c4de;
-    text-align: center;
-   border-radius: 50PX;
-   
-    
+    background-color: #3984C3ff;
+}
+
+main {
+    background-color: #fff;
     max-width: 736px;
     margin-inline: auto;
     margin-block: 64px;
     padding: 40px;
     border-radius: 24px;
-  
+    display: flex;
+    flex-direction: column;
 }
 
 button{
-    color: blue;
-   padding:  10px;
-   border: 10px;
-   text-align: center;
-   border-radius: 10PX;
+    padding: 15px;
+    border: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10PX;
+    background-color: rgb(122, 161, 192);
+    color: #fff;
+    margin-top: 20px;
+    justify-content: center;
+    transition: 0.5s;
 }
 
+button:hover {
+    background-color: #3984C3ff;
+    cursor: pointer;
+}
+
+
 h1{
-    padding: 20px;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 form{
@@ -38,30 +51,35 @@ div{
 }
 label{
     padding: 5px;
+    font-size: 20px;
   
    border-radius: 10PX;
 }
 
 select{
     padding: 5px;
-    border-radius: 50PX;
+    border-radius: 10PX;
+    margin-top: 20px;
+    border: 2px solid #3984C3ff;
+} 
+  
+img {
+    width: 750px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 40px;
 }
-input{
+  
+.principal input {
+    display: flex;
+    border: 2px solid #3984C3ff;
+    font-size: 18px;
+    padding: 5px;
     border-radius: 10px;
 }
 
+.marca {
+    font-size: 25px;
+    font-weight: 600;
 
- 
-  
-  
-  div img {
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-
-  
-
- 
+}
